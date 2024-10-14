@@ -1,0 +1,273 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* Remove o padding e a margem padrão de todos os elementos, e define box-sizing como border-box para incluir bordas e padding no tamanho total do elemento */
+}
+
+body {
+  font-family: sans-serif;
+  background: #C1908B;
+  /* Define a fonte do corpo como sans-serif e atribui um fundo de cor #C1908B */
+}
+
+.container {
+  max-width: 85%;
+  margin: auto;
+  height:100vh;
+  margin-top: 5%;
+  background: white;
+  box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.3);
+  /* Define a largura máxima como 85%, centraliza o container, ajusta a altura para 180vh, aplica uma margem superior, fundo branco e sombra */
+}
+
+.left, .right {
+  width: 50%;
+  padding: 30px;
+  /* Define a largura de 50% e aplica padding de 30px para as divs left e right */
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  /* Estabelece um layout flexível com espaçamento entre os elementos filhos */
+}
+
+.flex1 {
+  display: flex;
+  /* Aplica um layout flexível aos elementos com a classe flex1 */
+}
+
+.main_image {
+  width: auto;
+  height: auto;
+  /* Define a largura e altura da imagem principal automaticamente */
+}
+
+.option img {
+  width: 75px;
+  height: 75px;
+  padding: 10px;
+  /* Define a largura e altura das imagens de opção como 75px e adiciona 10px de padding */
+}
+
+.right {
+  padding: 50px 100px 50px 50px;
+  /* Aplica padding ao lado direito com 50px no topo e na parte inferior, 100px à direita e 50px à esquerda */
+}
+
+h3 {
+  color: #af827d;
+  margin: 20px 0 20px 0;
+  font-size: 25px;
+  /* Define a cor do texto como #af827d, aplica margens e define o tamanho da fonte para 25px */
+}
+
+h5, p, small {
+  color: #837D7C;
+  /* Define a cor do texto como #837D7C para os elementos h5, p e small */
+}
+
+h4 {
+  color: red;
+  /* Define a cor do texto em h4 como vermelho */
+}
+
+p {
+  margin: 20px 0 50px 0;
+  line-height: 25px;
+  /* Aplica margens ao parágrafo e define a altura da linha como 25px */
+}
+
+h5 {
+  font-size: 15px;
+  /* Define o tamanho da fonte em h5 como 15px */
+}
+
+.group-star {
+  margin: 10px;
+  /* Aplica uma margem de 10px ao grupo de estrelas */
+}
+
+label, .add span, .color span {
+  width: 25px;
+  height: 25px;
+  background: #000;
+  border-radius: 50%;
+  margin: 20px 10px 20px 0;
+  /* Define a largura e altura como 25px, aplica fundo preto, bordas arredondadas e margens */
+}
+
+.color span:nth-child(2) {
+  background: #EDEDED;
+  /* Define o fundo do segundo span dentro da classe color como #EDEDED */
+}
+
+.color span:nth-child(3) {
+  background: #D5D6D8;
+  /* Define o fundo do terceiro span dentro da classe color como #D5D6D8 */
+}
+
+.color span:nth-child(4) {
+  background: #EFE0DE;
+  /* Define o fundo do quarto span dentro da classe color como #EFE0DE */
+}
+
+.color span:nth-child(5) {
+  background: #AB8ED1;
+  /* Define o fundo do quinto span dentro da classe color como #AB8ED1 */
+}
+
+.color span:nth-child(6) {
+  background: #F04D44;
+  /* Define o fundo do sexto span dentro da classe color como #F04D44 */
+}
+
+.add label, .add span {
+  background: none;
+  border: 1px solid #C1908B;
+  color: #C1908B;
+  text-align: center;
+  line-height: 25px;
+  /* Remove o fundo, define borda de 1px e cor #C1908B, alinha o texto ao centro e ajusta a altura da linha */
+}
+
+.add label {
+  padding: 10px 30px 0 20px;
+  border-radius: 50px;
+  line-height: 0;
+  /* Aplica padding ao rótulo, bordas arredondadas e altura de linha zero */
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: #C1908B;
+  color: white;
+  margin-top: 20%;
+  border-radius: 30px;  
+  /* Define o botão para ocupar 100% da largura, aplica padding, remove borda e contorno, define o fundo e a cor do texto, aplica margem superior e bordas arredondadas */
+}
+
+.box iframe {
+  padding-right: 170px;
+  margin-bottom: 500px;
+  /* Adiciona padding à direita e margem inferior ao iframe dentro da classe box */
+}
+
+.button-addbag {
+  padding: 100px;
+  /* Aplica padding de 100px ao botão com a classe button-addbag */
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Define um layout flexível, centralizando horizontal e verticalmente os itens dentro da classe counter */
+}
+
+.decrease .increase .value {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* Define a largura e altura como 40px, aplica o tamanho da fonte, cor de fundo azul, texto branco, bordas arredondadas e estilo de cursor como pointer */
+}
+
+
+
+#value {
+  margin: 0 20px;
+  font-size: 24px;
+  /* Define margens horizontais e ajusta o tamanho da fonte para 24px */
+}
+
+
+.box{
+  display:flex;
+  justify-content: right;
+}
+
+
+.box-video{
+  width: 85%;
+  height: 56vh;
+  background-color: white;
+  margin-left: 101px;
+  padding: 30px;
+}
+.box-video{
+  display: inline-block;
+  font-size: 30px;
+  
+}
+
+.box-comentarios{
+  width: 85%;
+  height: 190vh;
+  background-color: white;
+  margin-left: 101px;
+  
+}
+
+.box-comentarios h1,p{
+  color: #af827d;
+  margin-left:30px;
+}
+
+
+
+
+
+
+@media only screen and (max-width:768px) {
+  .container {
+    max-width: 90%;
+    margin: auto;
+    height: auto;
+    /* Ajusta a largura máxima e altura do container em telas com largura máxima de 768px */
+  }
+
+  .left, .right {
+    width: 100%;
+    /* Faz com que os lados esquerdo e direito ocupem 100% da largura em telas menores */
+  }
+
+  .container {
+    flex-direction: column;
+    /* Altera o layout para coluna em telas menores */
+  }
+}
+
+@media only screen and (max-width:511px) {
+  .container {
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+    /* Ajusta a largura máxima, altura e aplica padding em telas com largura máxima de 511px */
+  }
+
+  .left, .right {
+    padding: 0;
+    /* Remove o padding dos lados esquerdo e direito em telas menores */
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    /* Define que as imagens ocuparão 100% da largura e altura em telas menores */
+  }
+
+  .option {
+    display: flex;
+    flex-wrap: wrap;
+    /* Ajusta a exibição das opções de imagens para se alinhar flexivelmente e permitir a quebra de linha */
+  }
+}

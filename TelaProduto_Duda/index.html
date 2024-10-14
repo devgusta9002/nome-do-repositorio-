@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<!-- Define o tipo de documento como HTML5 -->
+<html lang="en" dir="ltr">
+  <!-- Início do documento HTML com a linguagem definida como inglês e a direção do texto da esquerda para a direita -->
+
+<head>
+  <!-- Cabeçalho do documento HTML -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Define o viewport para uma largura de dispositivo, ajustando o layout para diferentes tamanhos de tela -->
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Link para o CSS da Font Awesome, que inclui ícones, com as políticas de integridade e referência de origem definidas -->
+  
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!-- Outro link para uma versão diferente da Font Awesome, com integridade e política de cross-origin -->
+  
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Link para o arquivo de estilo CSS localizado no diretório local -->
+</head>
+
+<body>
+  <!-- Corpo do documento HTML -->
+  
+  <section>
+    <!-- Início de uma seção no layout -->
+    
+    <div class="container flex">
+      <!-- Container principal com uma classe para estilo flexível -->
+      
+      <div class="left">
+        <!-- Div para o lado esquerdo da seção -->
+        
+        <div class="main_image">
+          <!-- Div que contém a imagem principal -->
+          
+          <img src="image/p1.jpg" class="slide">
+          <!-- Imagem principal com uma classe chamada 'slide' e a fonte definida -->
+        </div>
+        
+        <div class="option flex">
+          <!-- Div para as opções de miniaturas das imagens, com estilo flexível -->
+          
+          <img src="image/p1.jpg" onclick="img('image/p1.jpg')">
+          <!-- Miniatura da imagem, que muda a imagem principal ao ser clicada -->
+          
+          <img src="image/p2.jpg" onclick="img('image/p2.jpg')">
+          <!-- Outra miniatura da imagem -->
+          
+          <img src="image/p3.jpg" onclick="img('image/p3.jpg')">
+          <!-- Outra miniatura da imagem -->
+          
+          <img src="image/p4.jpg" onclick="img('image/p4.jpg')">
+          <!-- Outra miniatura da imagem -->
+          
+          <img src="image/p5.jpg" onclick="img('image/p5.jpg')">
+          <!-- Outra miniatura da imagem -->
+          
+          <img src="image/p6.jpg" onclick="img('image/p6.jpg')">
+          <!-- Outra miniatura da imagem -->
+        </div>
+      </div>
+      
+      <div class="right">
+        <!-- Div para o lado direito da seção -->
+        
+        <h3>Beats Solo3 Wireless</h3>
+        <!-- Título do produto -->
+        
+        <div class="group-star">
+          <!-- Grupo de ícones de estrelas -->
+          
+          <i class="fa-solid fa-star"></i>
+          <!-- Ícone de estrela usando a Font Awesome -->
+          
+          <i class="fa-solid fa-star"></i>
+          <!-- Outro ícone de estrela -->
+          
+          <i class="fa-solid fa-star"></i>
+          <!-- Outro ícone de estrela -->
+          
+          <i class="fa-solid fa-star"></i>
+          <!-- Outro ícone de estrela -->
+          
+          <i class="fa-solid fa-star"></i>
+          <!-- Outro ícone de estrela -->
+        </div>
+        
+        <h4> <small>$</small>999.99 </h4>
+        <!-- Preço do produto, com um estilo pequeno para o símbolo de dólar -->
+        
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <!-- Parágrafo com texto de exemplo (lorem ipsum) -->
+        
+        <h5>Escolha O Seu Tom: </h5>
+        <!-- Título para a escolha da cor -->
+        
+        <div class="color flex1">
+          <!-- Div para a escolha das cores, com estilo flexível -->
+          
+          <span></span>
+          <!-- Elemento span para representar uma cor -->
+          
+          <span></span>
+          <!-- Outro elemento span -->
+          
+          <span></span>
+          <!-- Outro elemento span -->
+          
+          <span></span>
+          <!-- Outro elemento span -->
+          
+          <span></span>
+          <!-- Outro elemento span -->
+          
+          <span></span>
+          <!-- Outro elemento span -->
+          
+          <span></span>
+          <!-- Outro elemento span -->
+          <button id="button-addbag" onclick="alert('Produto Adicionado A Sacola!')">Adicionar A Sacola
+            <i class="fa-solid fa-bag-shopping"></i> 
+          </button>
+        </div>
+   
+        <!-- Botão para adicionar o produto ao carrinho -->
+        
+        <div id="bag" class="add flex1">
+          <!-- Div para o carrinho de compras, com classe flexível -->
+          
+          <div class="counter">
+            <!-- Div que contém os botões de controle de quantidade -->
+            
+            <button id="decrease">-</button>
+            <!-- Botão para diminuir a quantidade -->
+            
+            <span id="value">0</span>
+            <!-- Span que exibe o valor da quantidade atual -->
+            
+            <button id="increase">+</button>
+            <!-- Botão para aumentar a quantidade
+              -->
+             
+             
+          </div>
+               
+       
+        </div>
+        
+
+  
+      </div>
+    </div>
+
+
+ 
+  </section>
+
+
+  <div class="box-video">
+          <div class="box">
+          <!-- Div para o conteúdo da caixa do vídeo -->
+      
+          <iframe width="760" height="315" src="https://www.youtube.com/embed/EYRq9PtuQhw?si=_W5v0EAdGqMN4era" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <!-- Iframe que exibe um vídeo do YouTube com opções de autoplay e controles de mídia habilitados -->
+
+</div>
+
+</div>
+<div class="box-comentarios">
+  <h1 >Indicações</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolores obcaecati nostrum praesentium alias perferendis iure? Placeat, excepturi eligendi odit doloribus, aspernatur beatae repudiandae perferendis laborum accusamus corporis, esse cupiditate.</p>
+  
+  
+  <br><br><br><br><br>
+
+  <h1>Comprovações</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolor saepe, voluptas, culpa, architecto animi reprehenderit dignissimos excepturi quas ipsum ab quos molestias nobis. Accusamus quod minima aut suscipit tempora.</p>
+
+
+  <br><br><br><br><br>
+
+  <h1>Avaliações</h1>
+  
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, hic dicta! Provident autem molestias alias exercitationem praesentium consequatur aspernatur error saepe blanditiis iusto, minus quos eius, quasi recusandae nisi ipsa.</p>
+
+  <br><br><br><br><br>
+
+
+  <h1>Composição</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, facere labore, fuga iusto odit est neque porro error distinctio animi enim ratione, aperiam modi. Illum unde totam quis. Non, nihil.</p>
+  <br><br><br><br><br>
+
+  <h1>Modo De Uso</h1>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae quae rem accusantium necessitatibus similique veniam animi nemo beatae, itaque alias magnam asperiores consequuntur placeat architecto nam, dolores assumenda, voluptate sed.</p>
+  <br><br><br><br><br>
+
+
+</div>
+</body>
+
+<script src="script.js"></script>
+<!-- Link para um arquivo de script JavaScript local -->
+<script src="js.js"></script>
+<!-- Link para outro arquivo de script JavaScript local -->
+</html>
